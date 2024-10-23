@@ -10,7 +10,7 @@ class DropDownElement extends HTMLElement {
         .menu {
           display: grid; 
           grid-template-rows: 0fr;
-          transition: grid-template-rows ${this.getAttribute('delay')}ms;
+          transition: grid-template-rows ${this.getAttribute('transition')}ms;
         }
 
         .menu.active {
